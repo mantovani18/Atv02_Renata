@@ -1,19 +1,12 @@
-/* Reset básico para deixar a página consistente em todos os navegadores */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-/* Configurações gerais da página e da tipografia principal */
 body {
     background: linear-gradient(180deg, rgba(238, 238, 238, 0.95), rgba(215, 231, 249, 0.95));
     font-family: 'Nunito', Arial, sans-serif;
-    color: rgb(34, 34, 118);
+    color: rgb(75, 75, 188);
     line-height: 1.6;
 }
 
-/* Títulos e agrupamento de tags para reforçar a identidade visual */
+
 h1,
 h2,
 .linkPag {
@@ -22,7 +15,7 @@ h2,
 
 h1,
 h2 {
-    color: rgb(35, 35, 130);
+    color: rgb(50, 50, 155);
     letter-spacing: 0.5px;
 }
 
@@ -43,7 +36,7 @@ h2 {
 }
 
 .linha1 {
-    border: 2px solid rgb(34, 34, 118);
+    border: 2px solid rgb(25, 25, 103);
     margin-left: 35%;
     margin-right: 35%;
     margin-bottom: 15px;
@@ -52,7 +45,7 @@ h2 {
 .linkCompra1 {
     text-align: center;
     margin: 20px 0;
-    color: rgb(70, 70, 190);
+    color: rgb(47, 47, 179);
     font-size: 24px;
 }
 
@@ -104,7 +97,7 @@ h2 {
     border-radius: 30px;
 }
 
-/* Destaque com seletor de ID para cumprir a rubrica de identificação única */
+
 #destaque-projeto {
     background-color: rgba(255, 255, 255, 0.72);
     border: 2px solid rgba(34, 34, 118, 0.25);
@@ -114,6 +107,7 @@ h2 {
     box-shadow: 0 12px 25px rgba(34, 34, 118, 0.1);
 }
 
+/*Estou alinhando o texto no centro, e dando uma margem para separar o conteúdo da descrição*/
 .descrição {
     text-align: center;
     margin-top: 3%;
@@ -121,10 +115,11 @@ h2 {
 }
 
 .desc {
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
+/*Estou colocando uma borda de 2px e deifinindo a cor dela, alem de dar uma margem*/
 .hrd {
     border: 2px solid rgb(34, 34, 118);
     margin: 15px 35%;
@@ -138,7 +133,7 @@ h2 {
     text-align: justify;
 }
 
-/* Galeria principal com espaçamento e alinhamento central */
+
 .galeria {
     text-align: center;
     margin-top: 3%;
@@ -160,22 +155,6 @@ h2 {
     margin: 10px;
 }
 
-.botao {
-    padding: 10px 20px;
-    margin: 15px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(34, 34, 118);
-    color: white;
-    transition: background-color 0.3s;
-}
-
-.botao:hover {
-    background-color: rgb(70, 70, 190);
-}
-
 .ideias {
     color: #028587;
     font-size: 20px;
@@ -188,7 +167,7 @@ h2 {
     text-align: center;
 }
 
-/* Lista em grade para a página de memórias */
+
 .cards-list {
     list-style: none;
     display: grid;
@@ -197,9 +176,10 @@ h2 {
     padding: 0;
     margin: 24px 0 0;
 }
+/*Coloquei um fundo branco, uma borda azul, arredondando os cantos no border-radius, e deixando o conteúdo dentro de cada card*/
 .cards-list li {
     background: rgba(255, 255, 255, 0.7);
-    border: 1px solid rgba(34, 34, 118, 0.12);
+    border: 1px solid rgba(0, 0, 148, 0.723);
     border-radius: 24px;
     padding: 18px;
     display: flex;
@@ -217,7 +197,7 @@ h2 {
 .ideia3 {
     margin: 0;
 }
-
+/*Defindo o tamanho das imagens, a borda, arredondando os cantos, e dando uma margem para separar uma img da outra*/
 .imag1{
     width: 100%;
     max-width: 320px;
@@ -246,7 +226,6 @@ h2 {
     object-fit: cover;
 }
 
-
 .top-row {
     display: flex;
     justify-content: space-between;
@@ -262,7 +241,7 @@ h2 {
 
 .top-row h2 {
     margin: 0 0 8px;
-    text-align: center;
+     text-align: center;
     font-size: 18px;
 }
 .top-row .box1,
@@ -301,7 +280,7 @@ a {
     margin-top: 24px;
     width: 100%;
     height: auto;
-     border: 2px dashed rgb(34, 34, 118);
+      border: 2px dashed rgb(34, 34, 118);
 }
 .video1,
 .video2,
