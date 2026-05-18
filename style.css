@@ -1,0 +1,338 @@
+/* Reset básico para deixar a página consistente em todos os navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações gerais da página e da tipografia principal */
+body {
+    background: linear-gradient(180deg, rgba(238, 238, 238, 0.95), rgba(215, 231, 249, 0.95));
+    font-family: 'Nunito', Arial, sans-serif;
+    color: rgb(34, 34, 118);
+    line-height: 1.6;
+}
+
+/* Títulos e agrupamento de tags para reforçar a identidade visual */
+h1,
+h2,
+.linkPag {
+    font-family: 'Tektur', sans-serif;
+}
+
+h1,
+h2 {
+    color: rgb(35, 35, 130);
+    letter-spacing: 0.5px;
+}
+
+.cabeçalho {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    margin-bottom: 10px;
+}
+
+.intro {
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.linha1 {
+    border: 2px solid rgb(34, 34, 118);
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 15px;
+}
+
+.linkCompra1 {
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(70, 70, 190);
+    font-size: 24px;
+}
+
+.linkCompra {
+    color: rgb(251, 0, 0);
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.subtitulo1 {
+    text-align: left;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+
+.subtitulo2 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.subtitulo3 {
+    text-align: right;
+    margin-right: 13%;
+    margin-top: 3%;
+}
+
+.box1 {
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.box2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.box3 {
+    text-align: right;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
+
+.img1,
+.img2,
+.img3 {
+    height: 200px;
+    border: 5px solid #000000;
+    border-radius: 30px;
+}
+
+/* Destaque com seletor de ID para cumprir a rubrica de identificação única */
+#destaque-projeto {
+    background-color: rgba(255, 255, 255, 0.72);
+    border: 2px solid rgba(34, 34, 118, 0.25);
+    border-radius: 24px;
+    padding: 28px 20px;
+    margin: 30px 10% 20px;
+    box-shadow: 0 12px 25px rgba(34, 34, 118, 0.1);
+}
+
+.descrição {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 30px;
+}
+
+.desc {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.hrd {
+    border: 2px solid rgb(34, 34, 118);
+    margin: 15px 35%;
+}
+
+.texto {
+    font-size: 22px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+/* Galeria principal com espaçamento e alinhamento central */
+.galeria {
+    text-align: center;
+    margin-top: 3%;
+    padding: 20px;
+}
+
+.galeriaf {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.imag1,
+.imag2,
+.imag3 {
+     
+    height: 200px;
+    border: 5px solid #000000;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.botao {
+    padding: 10px 20px;
+    margin: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(34, 34, 118);
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: rgb(70, 70, 190);
+}
+
+.ideias {
+    color: #028587;
+    font-size: 20px;
+    margin-top: 3%;
+    padding: 0 5% 5%;
+}
+
+.ideias h2,
+.titulo3 {
+    text-align: center;
+}
+
+/* Lista em grade para a página de memórias */
+.cards-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 28px;
+    padding: 0;
+    margin: 24px 0 0;
+}
+.cards-list li {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(34, 34, 118, 0.12);
+    border-radius: 24px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    box-shadow: 0 10px 25px rgba(34, 34, 118, 0.08);
+}
+.cards-list a {
+    font-weight: 700;
+    font-size: 22px;
+}
+.ideia1,
+.ideia2,
+.ideia3 {
+    margin: 0;
+}
+
+.imag1{
+    width: 100%;
+    max-width: 320px;
+    height: 180px;
+    border: 5px solid #000000;
+    border-radius: 30px;
+    margin-top: 0;
+    object-fit: cover;
+}
+.imag2{
+    width: 100%;
+    max-width: 320px;
+    height: 180px;
+    border: 5px solid #000000;
+    border-radius: 30px;
+    margin-top: 0;
+    object-fit: cover;
+}
+.imag3{
+    width: 100%;
+    max-width: 320px;
+    height: 180px;
+    border: 5px solid #1d1d1d;
+    border-radius: 35px;
+    margin-top: 0;
+    object-fit: cover;
+}
+
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px 10%;
+    margin-top: 20px;
+}
+.top-row .top-item {
+    flex: 1;
+    text-align: center;
+}
+
+.top-row h2 {
+    margin: 0 0 8px;
+    text-align: center;
+    font-size: 18px;
+}
+.top-row .box1,
+.top-row .box2,
+.top-row .box3 {
+    margin: 0;
+}
+.top-row img {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+}
+.linkPag {
+    background-color: #0c53b5;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 32px 20px 20px;
+}
+a {
+    color: #028587;
+    text-decoration: none;
+    text-align: right;
+}
+.videos{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    width: 100%;
+    height: auto;
+     border: 2px dashed rgb(34, 34, 118);
+}
+.video1,
+.video2,
+.video3{
+    margin: 0;
+}
+
+.hrdIdeias {
+    border: 3px solid rgb(34, 34, 118);
+    margin-top: 3%;
+}
+
+.titulo3{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+video.video1,
+video.video2,
+video.video3,
+video.videos {
+    width: min(100%, 320px);
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+
+
+
